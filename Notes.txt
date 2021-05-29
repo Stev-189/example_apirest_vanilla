@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=_1xa8Bsho6A
+https://github.com/bradtraversy/vanilla-node-rest-api
+
+//ejemplo de una api rest solo con 2 modulos uno de id que s epuede reemplazar por un date.now() para una
+//hacer la id y nuestro querido nodemon
+npm init -y
+npm i -D nodemon
+// tenber instalado rest client
+npm i uuid // para asignar id

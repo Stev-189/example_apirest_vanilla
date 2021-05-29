@@ -1,0 +1,52 @@
+
+###
+GET http://localhost:3000
+
+
+###
+GET http://localhost:3000/api/products
+
+
+###
+POST http://localhost:3000/api/products
+
+
+###
+GET http://localhost:3000/api/products/3
+
+
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "camera",
+    "description": "test camera",
+    "price": 1000
+}
+
+
+###
+PUT http://localhost:3000/api/products/05de1d77-38ea-489e-af7b-2a6237b50c7e
+Content-Type: application/json
+
+{
+    "name": "camera 2",
+    "description": "test camera 2",
+    "price": 1000
+}
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "delete",
+    "description": "delete",
+    "price": 0
+}
+
+
+###
+DELETE http://localhost:3000/api/products/244511b6-d492-4631-a671-c1e1f064459b
